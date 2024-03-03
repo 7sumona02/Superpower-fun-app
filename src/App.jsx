@@ -14,7 +14,7 @@ function App() {
     setSubmitted(false); // Reset submitted state when toggling input
   };
 
-  const h.andleSuperpowerChange = (e) => {
+  const handleSuperpowerChange = (e) => {
     setSuperpower(e.target.value);
   };
 
